@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/DroidKufi-Regular.woff2) format('woff2');
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Droid Arabic Kufi';
+}
+
+.loading {
+    display: inline-block;
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: 50%;
+    z-index: 99999;
+}
+.loading div {
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    width: 13px;
+    background: forestgreen;
+    animation: loading 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.loading div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.24s;
+}
+.loading div:nth-child(2) {
+    left: 26px;
+    animation-delay: -0.12s;
+}
+.loading div:nth-child(3) {
+    left: 45px;
+    animation-delay: 0s;
+}
+@keyframes loading {
+    0% {
+        top: 6px;
+        height: 51px;
+    }
+    50%, 100% {
+        top: 19px;
+        height: 26px;
+    }
+}
+
+/* End loader */
+
+/* Start overlay */
+.overlay{
+    background: #33333373;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8888;
+}
+
+.not_found {
+    font-size: 40px;
+}
+
+.not_found span{
+    font-weight: 600;
+}
+
+/* Start nav bar */
+
+.logo_and_title{
+    font-size: 25px;
+}
+
+.logo_and_title a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo_and_title img{
+    max-width: 101px;
+    max-height: 75px;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    font-size: 60px;
+    height: 100px;
+    width: 40px;
+
+}
+
+.navbar, .footer, .news{
+    background: forestgreen;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer span.copyright{
+    color: #fff;
+    margin-right: 10px;
+}
+
+.navbar .nav-link{
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+.navbar .nav-link:hover{
+    background: rgba(0, 226, 0, 0.54);
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 4px;
+    transition: all .1s linear;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled){
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/* End nav bar */
+
+
+/* Start logo */
+
+.logo span{
+    font-size: 25px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+
+/* End logo */
+
+/* Start content */
+
+.content{
+    background: #f1f1f1;
+    border-left: 1px groove;
+    border-top: 1px groove;
+    /*width: 19.8%;*/
+    /*padding: 0 5px 0 5px;*/
+}
+
+.content ul, .block ul{
+    direction: rtl;
+    text-align: right;
+
+}
+
+.content ul li, .block ul li{
+    margin-bottom: 25px;
+}
+
+.content p{
+    color: #333333;
+}
+
+.content a{
+    float: left;
+}
+
+.knowledge div {
+    border-bottom: 1px solid green;
+}
+
+.logo_img {
+    position: absolute;
+    right: 3%;
+    top: 0%;
+}
+
+.slider_background{
+    background: url("../../images/slider_background.jpg") center center no-repeat ;
+    background-size: 100%;
+    overflow: hidden;
+
+}
+
+.last_news{
+    background: #28a745;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.content_next .block{
+    position: relative;
+    background: #f1f1f1;
+    width: 24%;
+    padding: 10px;
+    border-radius: 10px 0 10px 10px;
+    text-align: center;
+}
+
+.content_next .block span{
+    position: absolute;
+    top: -25px;
+    right: 0;
+    background: forestgreen;
+    color: #fff;
+    display: block;
+    width: 60%;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.content_next .block i{
+    font-size: 80px;
+}
+
+/* End content */
+
+/* Start share idea */
+
+.share_form input, .share_form textarea, .share_form select{
+    direction: rtl;
+}
+
+.share_form select{
+    height: calc(2.25rem + 7px);
+}
+
+/* End share idea */
+
+
+/* Animate news */
+
+h6.new a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.new_details, .center_idea{
+    direction: rtl;
+}
+
+.share_form form div{
+    margin-bottom: 35px;
+    position: relative;
+}
+
+
+.share_form form label{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    direction: rtl;
+    font-size: 13px;
+    color: green;
+    transform: translate(-12PX, 37px);
+    transition: all .2s linear;
+}
+
+.logo i:hover{
+    transform: translateY(2px);
+    transition: all .2s ease;
+    opacity: .7;
+}
