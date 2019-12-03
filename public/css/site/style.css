@@ -75,6 +75,7 @@ body{
 
 .logo_and_title{
     font-size: 25px;
+    background: rgb(186, 156, 92);
 }
 
 .logo_and_title a{
@@ -101,7 +102,7 @@ body{
 }
 
 .navbar, .footer, .news{
-    background: forestgreen;
+    background: rgb(186, 156, 92);
 }
 
 .footer a{
@@ -122,7 +123,7 @@ body{
 }
 
 .navbar .nav-link:hover{
-    background: rgba(0, 226, 0, 0.54);
+    background: rgb(115, 89, 34);
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     border-radius: 4px;
@@ -189,14 +190,14 @@ body{
 }
 
 .slider_background{
-    background: url("../../images/slider_background.jpg") center center no-repeat ;
-    background-size: 100%;
+    background: url(../../images/slider_background.jpeg);
+    background-size: contain;
     overflow: hidden;
 
 }
 
 .last_news{
-    background: #28a745;
+    background: rgb(115, 89, 34);
     font-size: 19px;
     letter-spacing: 1px;
 }
