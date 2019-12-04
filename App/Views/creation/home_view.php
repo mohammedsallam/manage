@@ -1,7 +1,7 @@
 <div class="container-fluid my-3" id="creation">
     <div class="row">
         <div class="col-lg-3 text-right content py-3">
-            <h3 class="border shadow rounded bg-success text-center text-light py-2"><i class="fa fa-edit"></i> <span>تحفيز</span></h3>
+            <h3 class="border shadow rounded  text-center py-2"><i class="fa fa-edit"></i> <span>تحفيز</span></h3>
             <hr>
             <div class="clearfix"></div>
             <ul>
@@ -13,7 +13,7 @@
         </div>
 
         <div class="col-lg-3 text-right content py-3">
-            <h3 class="border shadow rounded bg-success text-center text-light py-2"><i class="fa fa-balance-scale"></i> <span>المعايير</span></h3>
+            <h3 class="border shadow rounded  text-center py-2"><i class="fa fa-balance-scale"></i> <span>المعايير</span></h3>
             <hr>
             <div class="clearfix"></div>
             <ul>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="col-lg-3 text-right content py-3">
-            <h3 class="border shadow rounded bg-success text-center text-light py-2"><i class="fa fa-bar-chart-o"></i> <span>الأهداف</span></h3>
+            <h3 class="border shadow rounded  text-center py-2"><i class="fa fa-bar-chart-o"></i> <span>الأهداف</span></h3>
             <hr>
             <div class="clearfix"></div>
             <ul>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="col-lg-3 text-right content py-3">
-            <h3 class="border shadow rounded bg-success text-center text-light py-2"><i class="fa fa-lightbulb-o"></i> <span>فكرة المركز</span></h3>
+            <h3 class="border shadow rounded text-center py-2"><i class="fa fa-lightbulb-o"></i> <span>فكرة المركز</span></h3>
             <hr>
             <div class="clearfix"></div>
             <p>تقوم فكرة الوحدة الإلكترونية  على البحث عن المبادرات التطويرية.</p>

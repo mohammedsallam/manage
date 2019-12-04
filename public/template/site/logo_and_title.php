@@ -8,4 +8,4 @@
         <span  class="mr-3">أكاديمية التأهيل و التدريب وخدمة الزائرات النسائية</span>
     </a>
 </div>
-<div class="text-center my-3 font-weight-bold">إشراف : أكاديمية المسجد النبوي النسائية</div>
+<div class="text-center my-3 font-weight-bold">أكاديمية المسجد النبوي النسائية</div>
